@@ -1,0 +1,102 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@ef00tball 
+@ef00tballef00tball
+ Repositories 1 Projects 1
+Nhuong chuyen bao theo 
+Filter cards
+Fullscreen
+1 sa
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+⌄
+⌄
+⌄
+⌄
+⌄
+import urllib.request
+"install_id": install_id,
+"fcm_token": "{}:APA91b{}".format(install_id, genString(134)),
+"referrer": referrer,
+"warp_enabled": False,
+"tos": datetime.datetime.now().isoformat()[:-3] + "+02:00",
+"type": "Android",
+"locale": "es_ES"}
+data = json.dumps(body).encode('utf8')
+headers = {'Content-Type': 'application/json; charset=UTF-8',
+'Host': 'api.cloudflareclient.com',
+'Connection': 'Keep-Alive',
+'Accept-Encoding': 'gzip',
+'User-Agent': 'okhttp/3.12.1'
+}
+req = urllib.request.Request(url, data, headers)
+response = urllib.request.urlopen(req)
+status_code = response.getcode()
+return status_code
+except Exception as error:
+print("")
+print(error)
+
+g = 0
+b = 0
+w
+
+Added by ef00tball
+Press enter to move this card
+0 sá
+Your projects 
